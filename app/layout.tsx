@@ -1,13 +1,14 @@
 import './globals.css'
 import { Inter, Space_Grotesk } from 'next/font/google'
+import Cursor from '@/components/Cursor'
+
+const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
+const spaceGrotesk = Space_Grotesk({ subsets: ['latin'], variable: '--font-space-grotesk' })
 
 export const metadata = {
   title: 'Sparsh Shah',
   description: 'Software engineer, builder, Waterloo Engineering.',
 }
-
-const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
-const spaceGrotesk = Space_Grotesk({ subsets: ['latin'], variable: '--font-space-grotesk' })
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -16,8 +17,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;700;900&display=swap" rel="stylesheet" />
+        <link href="https://fonts.cdnfonts.com/css/the-seasons" rel="stylesheet" />
       </head>
-      <body>{children}</body>
+      <body>
+        <Cursor />
+        {children}
+      </body>
     </html>
   )
 }
