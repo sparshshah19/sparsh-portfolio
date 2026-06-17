@@ -17,14 +17,14 @@ export default function Navbar() {
         alignItems: 'center',
       }}
     >
-      <span style={{ fontFamily: 'Unbounded, sans-serif', fontSize: 13, fontWeight: 700, color: '#1A1A1A' }}>
+      <a href="/" style={{ fontFamily: 'Unbounded, sans-serif', fontSize: 13, fontWeight: 700, color: '#1A1A1A', textDecoration: 'none' }}>
         Sparsh Shah
-      </span>
+      </a>
       <div style={{ display: 'flex', gap: 28, alignItems: 'center' }}>
         {LINKS.map(link => (
           <a
             key={link}
-            href={`#${link.toLowerCase()}`}
+            href={`/#${link.toLowerCase()}`}
             style={{ fontFamily: 'Unbounded, sans-serif', fontSize: 9, fontWeight: 400, color: '#888', textDecoration: 'none' }}
           >
             {link}

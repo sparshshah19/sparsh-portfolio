@@ -8,6 +8,7 @@ const spaceGrotesk = Space_Grotesk({ subsets: ['latin'], variable: '--font-space
 export const metadata = {
   title: 'Sparsh Shah',
   description: 'Software engineer, builder, Waterloo Engineering.',
+  icons: { icon: '/favicon.svg' },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
