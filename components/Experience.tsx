@@ -4,7 +4,7 @@ import Image from 'next/image'
 import SectionHeading from './SectionHeading'
 
 const ENTRIES = [
-  { position: 'Software Engineer Intern', company: 'Modern Niagara',           period: '2026 – Present', accent: '#E3000B', logo: '/logos/logo-modern-niagara.png' },
+  { position: 'Data Engineer Intern', company: 'Modern Niagara',           period: '2026 – Present', accent: '#E3000B', logo: '/logos/logo-modern-niagara.png' },
   { position: 'AI Engineer Intern',       company: 'Cybersphere',              period: '2026',           accent: '#006CB7', logo: '/logos/logo-cybersphere.png'    },
   { position: 'Growth',                   company: 'Boardy',                   period: '2025 – 2026',    accent: '#FF6B35', logo: '/logos/logo-boardy.png'         },
   { position: 'Software Engineer Intern', company: 'Hands',                    period: '2025',           accent: '#00A650', logo: '/logos/logo-hands.png'          },
