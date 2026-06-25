@@ -8,7 +8,7 @@ describe('Experience', () => {
   })
   it('renders all 6 position titles', () => {
     render(<Experience />)
-    expect(screen.getAllByText('Software Engineer Intern')).toHaveLength(2)
+    expect(screen.getAllByText('Data Engineer Intern')).toHaveLength(2)
     expect(screen.getByText('Internal Director')).toBeInTheDocument()
     expect(screen.getByText('AI Engineer Intern')).toBeInTheDocument()
     expect(screen.getByText('Growth')).toBeInTheDocument()
