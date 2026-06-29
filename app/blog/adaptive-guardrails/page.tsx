@@ -1,15 +1,14 @@
 export const metadata = { title: 'Code-form attacks on retrieval-based AI safety memory | Sparsh Shah' }
 
-const PAPER_URL = 'https://drive.google.com/file/d/1PANX-4oKovCh9j50ypUTZNKm4FWe2nJg/view?usp=sharing'
 const CODE_URL = 'https://github.com/sparshshah19/adaptive-guardrails'
 
-const font = "var(--font-inter), system-ui, sans-serif"
+const font = "Georgia, 'Times New Roman', serif"
 
 const prose: React.CSSProperties = {
   fontFamily: font,
-  fontSize: 15,
+  fontSize: 16,
   color: '#333',
-  lineHeight: 1.85,
+  lineHeight: 1.8,
   marginBottom: 20,
 }
 
@@ -47,15 +46,15 @@ const inlineCode: React.CSSProperties = {
 
 const divider: React.CSSProperties = {
   border: 'none',
-  borderTop: '1px solid #e5e5e5',
-  margin: '40px 0',
+  borderTop: '1px solid #ddd',
+  margin: '44px 0',
 }
 
 const linkStyle: React.CSSProperties = {
-  color: '#111',
-  textDecoration: 'none',
-  borderBottom: '1px solid #ccc',
-  paddingBottom: 1,
+  fontFamily: font,
+  color: '#333',
+  textDecoration: 'underline',
+  textUnderlineOffset: 3,
 }
 
 export default function BlogPost() {
@@ -64,27 +63,26 @@ export default function BlogPost() {
         <article style={{ maxWidth: 680, margin: '0 auto', padding: '0 28px' }}>
 
           {/* Back */}
-          <a href="/" style={{ fontFamily: font, fontSize: 13, color: '#888', textDecoration: 'none', display: 'block', marginBottom: 48 }}>
+          <a href="/" style={{ fontFamily: font, fontSize: 16, color: '#888', textDecoration: 'underline', textUnderlineOffset: 3, display: 'block', marginBottom: 48 }}>
             ← Back
           </a>
 
           {/* Label */}
-          <div style={{ fontFamily: font, fontSize: 11, fontWeight: 700, color: '#999', letterSpacing: 2, textTransform: 'uppercase' as const, marginBottom: 16 }}>Research</div>
+          <div style={{ fontFamily: font, fontSize: 13, color: '#888', marginBottom: 12 }}>Research</div>
 
           {/* Title */}
-          <h1 style={{ fontFamily: font, fontSize: 28, fontWeight: 700, color: '#111', lineHeight: 1.2, marginBottom: 18 }}>
+          <h1 style={{ fontFamily: font, fontSize: 30, fontWeight: 400, color: '#111', lineHeight: 1.25, marginBottom: 18 }}>
             Code-form attacks on retrieval-based AI safety memory
           </h1>
 
           {/* Lede */}
-          <p style={{ ...prose, fontStyle: 'italic', color: '#555', fontSize: 15, lineHeight: 1.75, marginBottom: 24 }}>
+          <p style={{ ...prose, fontStyle: 'italic', color: '#555', marginBottom: 24 }}>
             A guardrail that blocks dangerous agent actions by remembering what threats look like can be bypassed by rewriting the threat in bash. This worked on every general-purpose embedding model I tested, including large commercial ones, at a 99 to 100% rate. The fix is narrower and stranger than &ldquo;use a bigger model.&rdquo;
           </p>
 
           {/* Author line */}
-          <div style={{ fontFamily: font, fontSize: 13, color: '#888', marginBottom: 40, display: 'flex', gap: 16, flexWrap: 'wrap' as const, alignItems: 'center' }}>
-            <span>Sparsh Shah · June 2026</span>
-            <a href={PAPER_URL} target="_blank" rel="noreferrer" style={linkStyle}>paper</a>
+          <div style={{ fontFamily: font, fontSize: 15, color: '#888', marginBottom: 40, display: 'flex', gap: 16, flexWrap: 'wrap' as const, alignItems: 'center' }}>
+            <span>Sparsh Shah · June 2026 · 9 min read</span>
             <a href={CODE_URL} target="_blank" rel="noreferrer" style={linkStyle}>code</a>
           </div>
 
