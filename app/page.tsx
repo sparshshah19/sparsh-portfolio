@@ -6,7 +6,7 @@ const CONTACTS = [
 
 export default function Page() {
   return (
-    <main style={{ maxWidth: 560, margin: '72px auto', padding: '0 28px', fontFamily: 'var(--font-inter), system-ui, sans-serif' }}>
+    <main style={{ maxWidth: 560, margin: '72px auto', padding: '0 28px', fontFamily: 'var(--font-inter), system-ui, sans-serif', background: '#fff', minHeight: '100vh' }}>
       <h1 style={{ fontSize: 22, fontWeight: 700, color: '#111', margin: '0 0 6px' }}>Sparsh Shah</h1>
 
       <div style={{ display: 'flex', flexWrap: 'wrap', gap: '4px 16px', marginBottom: 36 }}>
@@ -23,7 +23,7 @@ export default function Page() {
         ))}
       </div>
 
-      <p style={{ fontSize: 14, color: '#333', lineHeight: 1.75, margin: '0 0 48px' }}>
+      <p style={{ fontSize: 14, color: '#333', lineHeight: 1.75, margin: '0 0 28px' }}>
         Year two engineering student at the University of Waterloo. Currently working as a data engineer at{' '}
         <strong style={{ fontWeight: 600, color: '#111' }}>Modern Niagara</strong>. Previously at{' '}
         <strong style={{ fontWeight: 600, color: '#111' }}>Boardy</strong> as a scout,{' '}

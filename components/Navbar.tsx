@@ -1,5 +1,3 @@
-const LINKS = ['Experience', 'Work', 'Personal']
-
 export default function Navbar() {
   return (
     <nav
@@ -20,32 +18,21 @@ export default function Navbar() {
       <a href="/" style={{ fontFamily: 'Unbounded, sans-serif', fontSize: 13, fontWeight: 700, color: '#1A1A1A', textDecoration: 'none' }}>
         Sparsh Shah
       </a>
-      <div style={{ display: 'flex', gap: 28, alignItems: 'center' }}>
-        {LINKS.map(link => (
-          <a
-            key={link}
-            href={`/#${link.toLowerCase()}`}
-            style={{ fontFamily: 'Unbounded, sans-serif', fontSize: 9, fontWeight: 400, color: '#888', textDecoration: 'none' }}
-          >
-            {link}
-          </a>
-        ))}
-        <a
-          href="mailto:sparsh.shah@uwaterloo.ca"
-          style={{
-            fontFamily: 'Unbounded, sans-serif',
-            fontSize: 9,
-            fontWeight: 700,
-            color: '#1A1A1A',
-            background: '#FFD700',
-            padding: '7px 16px',
-            borderRadius: 3,
-            textDecoration: 'none',
-          }}
-        >
-          Get In Touch
-        </a>
-      </div>
+      <a
+        href="mailto:sparsh.shah@uwaterloo.ca"
+        style={{
+          fontFamily: 'Unbounded, sans-serif',
+          fontSize: 9,
+          fontWeight: 700,
+          color: '#1A1A1A',
+          background: '#FFD700',
+          padding: '7px 16px',
+          borderRadius: 3,
+          textDecoration: 'none',
+        }}
+      >
+        Get In Touch
+      </a>
     </nav>
   )
 }

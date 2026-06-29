@@ -7,12 +7,6 @@
   --foreground: #171717;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
 
 body {
   background: var(--background);
@@ -21,7 +15,6 @@ body {
   font-weight: 300;
 }
 
-html, body { cursor: none !important; }
 
 @keyframes letterSlam {
   0%   { opacity: 0; transform: translateY(-40px) scale(1.4); }

@@ -1,12 +1,12 @@
-import Navbar from '@/components/Navbar'
-
 export const metadata = { title: 'Code-form attacks on retrieval-based AI safety memory | Sparsh Shah' }
 
 const PAPER_URL = 'https://drive.google.com/file/d/1PANX-4oKovCh9j50ypUTZNKm4FWe2nJg/view?usp=sharing'
 const CODE_URL = 'https://github.com/sparshshah19/adaptive-guardrails'
 
+const font = "var(--font-inter), system-ui, sans-serif"
+
 const prose: React.CSSProperties = {
-  fontFamily: "'The Seasons', Georgia, serif",
+  fontFamily: font,
   fontSize: 15,
   color: '#333',
   lineHeight: 1.85,
@@ -14,76 +14,75 @@ const prose: React.CSSProperties = {
 }
 
 const h2Style: React.CSSProperties = {
-  fontFamily: "'The Seasons', Georgia, serif",
-  fontSize: 22,
+  fontFamily: font,
+  fontSize: 18,
   fontWeight: 700,
-  color: '#1A1A1A',
-  marginTop: 52,
-  marginBottom: 16,
-  letterSpacing: -0.3,
+  color: '#111',
+  marginTop: 48,
+  marginBottom: 14,
 }
 
 const codeBlock: React.CSSProperties = {
-  background: '#1A1A1A',
-  color: '#E8E8E8',
+  background: '#f4f4f4',
+  color: '#111',
   fontFamily: 'ui-monospace, "Cascadia Code", "Source Code Pro", monospace',
   fontSize: 13,
   lineHeight: 1.7,
-  padding: '18px 22px',
-  borderRadius: 6,
+  padding: '16px 20px',
+  borderRadius: 4,
   overflowX: 'auto' as const,
   marginBottom: 24,
   display: 'block',
+  border: '1px solid #e5e5e5',
 }
 
 const inlineCode: React.CSSProperties = {
-  background: 'rgba(0,0,0,0.07)',
+  background: '#f4f4f4',
   fontFamily: 'ui-monospace, "Cascadia Code", monospace',
   fontSize: 13,
   padding: '1px 5px',
   borderRadius: 3,
+  border: '1px solid #e5e5e5',
 }
 
 const divider: React.CSSProperties = {
   border: 'none',
-  borderTop: '2px solid #1A1A1A',
-  margin: '44px 0',
+  borderTop: '1px solid #e5e5e5',
+  margin: '40px 0',
 }
 
 const linkStyle: React.CSSProperties = {
-  color: '#1A1A1A',
+  color: '#111',
   textDecoration: 'none',
-  borderBottom: '2px solid #E3000B',
+  borderBottom: '1px solid #ccc',
   paddingBottom: 1,
 }
 
 export default function BlogPost() {
   return (
-    <>
-      <Navbar />
-      <main style={{ background: '#F7F3EE', minHeight: '100vh', paddingTop: 100, paddingBottom: 100 }}>
-        <article style={{ maxWidth: 700, margin: '0 auto', padding: '0 32px' }}>
+    <main style={{ background: '#fff', minHeight: '100vh', paddingTop: 72, paddingBottom: 100 }}>
+        <article style={{ maxWidth: 680, margin: '0 auto', padding: '0 28px' }}>
 
           {/* Back */}
-          <a href="/" style={{ fontFamily: 'Unbounded, sans-serif', fontSize: 9, fontWeight: 700, color: '#888', textDecoration: 'none', letterSpacing: 1, display: 'block', marginBottom: 48 }}>
+          <a href="/" style={{ fontFamily: font, fontSize: 13, color: '#888', textDecoration: 'none', display: 'block', marginBottom: 48 }}>
             ← Back
           </a>
 
           {/* Label */}
-          <div style={{ fontFamily: 'Unbounded, sans-serif', fontSize: 8, fontWeight: 700, color: '#006CB7', letterSpacing: 3, marginBottom: 20 }}>RESEARCH</div>
+          <div style={{ fontFamily: font, fontSize: 11, fontWeight: 700, color: '#999', letterSpacing: 2, textTransform: 'uppercase' as const, marginBottom: 16 }}>Research</div>
 
           {/* Title */}
-          <h1 style={{ fontFamily: "'The Seasons', Georgia, serif", fontSize: 34, fontWeight: 700, color: '#1A1A1A', lineHeight: 1.2, marginBottom: 20, letterSpacing: -0.5 }}>
+          <h1 style={{ fontFamily: font, fontSize: 28, fontWeight: 700, color: '#111', lineHeight: 1.2, marginBottom: 18 }}>
             Code-form attacks on retrieval-based AI safety memory
           </h1>
 
           {/* Lede */}
-          <p style={{ ...prose, fontStyle: 'italic', color: '#555', fontSize: 16, lineHeight: 1.7, marginBottom: 24 }}>
+          <p style={{ ...prose, fontStyle: 'italic', color: '#555', fontSize: 15, lineHeight: 1.75, marginBottom: 24 }}>
             A guardrail that blocks dangerous agent actions by remembering what threats look like can be bypassed by rewriting the threat in bash. This worked on every general-purpose embedding model I tested, including large commercial ones, at a 99 to 100% rate. The fix is narrower and stranger than &ldquo;use a bigger model.&rdquo;
           </p>
 
           {/* Author line */}
-          <div style={{ fontFamily: "'The Seasons', Georgia, serif", fontSize: 12, color: '#888', marginBottom: 44, display: 'flex', gap: 16, flexWrap: 'wrap' as const, alignItems: 'center' }}>
+          <div style={{ fontFamily: font, fontSize: 13, color: '#888', marginBottom: 40, display: 'flex', gap: 16, flexWrap: 'wrap' as const, alignItems: 'center' }}>
             <span>Sparsh Shah · June 2026</span>
             <a href={PAPER_URL} target="_blank" rel="noreferrer" style={linkStyle}>paper</a>
             <a href={CODE_URL} target="_blank" rel="noreferrer" style={linkStyle}>code</a>
@@ -320,7 +319,7 @@ export default function BlogPost() {
 
           <p style={prose}>That makes embedding-model choice a security decision, not just a quality one. If you&rsquo;re running a retrieval-based safety system, the takeaways are narrow and specific:</p>
 
-          <ul style={{ fontFamily: "'The Seasons', Georgia, serif", fontSize: 15, color: '#333', lineHeight: 1.85, marginBottom: 24, paddingLeft: 24 }}>
+          <ul style={{ fontFamily: font, fontSize: 15, color: '#333', lineHeight: 1.85, marginBottom: 24, paddingLeft: 24 }}>
             <li style={{ marginBottom: 10 }}>Verify your embedding model was trained to align code with natural-language descriptions. Incidental code exposure isn&rsquo;t enough; bimodal alignment training is the property that matters.</li>
             <li style={{ marginBottom: 10 }}>Confirm the encoding mode you test in is the one you deploy in. The Gemini result means a passing test in the wrong mode is worse than no test, because it&rsquo;s false confidence.</li>
             <li>Don&rsquo;t lean on benchmark scores to assess this. They don&rsquo;t measure it.</li>
@@ -340,7 +339,7 @@ export default function BlogPost() {
           <hr style={divider} />
 
           {/* Footer */}
-          <p style={{ ...prose, fontStyle: 'italic', color: '#666', fontSize: 13 }}>
+          <p style={{ ...prose, color: '#888', fontSize: 13 }}>
             Code and full results:{' '}
             <a href={CODE_URL} target="_blank" rel="noreferrer" style={linkStyle}>github.com/sparshshah19/adaptive-guardrails</a>.{' '}
             If you work on agent safety or retrieval systems and want to poke at this, reach out.
@@ -348,6 +347,5 @@ export default function BlogPost() {
 
         </article>
       </main>
-    </>
   )
 }
