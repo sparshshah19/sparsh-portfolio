@@ -2,7 +2,7 @@ const serif = "Georgia, 'Times New Roman', serif"
 const sans = "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
 
 const CONTACTS = [
-  { label: 'sparsh.shah@uwaterloo.ca', href: 'mailto:sparsh.shah@uwaterloo.ca' },
+  { label: 'Email', href: 'mailto:sparsh.shah@uwaterloo.ca' },
   { label: 'LinkedIn', href: 'https://www.linkedin.com/in/sparshshahh/' },
   { label: 'GitHub', href: 'https://github.com/sparshshah19' },
 ]
@@ -25,17 +25,9 @@ export default function Page() {
   return (
     <main style={{ maxWidth: 620, margin: '64px auto', padding: '0 32px', background: '#fff', minHeight: '100vh' }}>
 
-      <h1 style={{ fontFamily: serif, fontSize: 32, fontWeight: 400, color: '#111', margin: '0 0 24px', lineHeight: 1.1 }}>Sparsh Shah</h1>
+      <h1 style={{ fontFamily: serif, fontSize: 26, fontWeight: 400, color: '#111', margin: '0 0 12px', lineHeight: 1.1 }}>Sparsh Shah</h1>
 
-      <p style={{ fontFamily: sans, fontSize: 15, color: '#333', lineHeight: 1.75, margin: '0 0 20px' }}>
-        Year two engineering student at the University of Waterloo. Currently working as a data engineer at{' '}
-        {co('Modern Niagara', 'https://modernniagara.com/')}. Previously at{' '}
-        {co('Boardy', 'https://www.boardy.ai/')} as a scout,{' '}
-        {co('Cybersphere', 'https://getcybersphere.com/')} working in AI automation, and{' '}
-        {co('Hands', 'https://handsforu.com/')} as a software engineer working on RAG and shipping full-stack features.
-      </p>
-
-      <div style={{ display: 'flex', gap: 24, marginBottom: 48 }}>
+      <div style={{ display: 'flex', gap: 24, marginBottom: 20 }}>
         {CONTACTS.map(c => (
           <a
             key={c.label}
@@ -49,7 +41,15 @@ export default function Page() {
         ))}
       </div>
 
-      <p style={{ fontFamily: sans, fontSize: 15, fontWeight: 600, color: '#111', margin: '0 0 10px' }}>Writing</p>
+      <p style={{ fontFamily: sans, fontSize: 15, color: '#333', lineHeight: 1.75, margin: '0 0 48px' }}>
+        Year 2 at the University of Waterloo studying Management Engineering. Currently working as a data engineer at{' '}
+        {co('Modern Niagara', 'https://modernniagara.com/')}. Previously at{' '}
+        {co('Boardy', 'https://www.boardy.ai/')} as a scout,{' '}
+        {co('Cybersphere', 'https://getcybersphere.com/')} working in AI automation, and{' '}
+        {co('Hands', 'https://handsforu.com/')} as a software engineer working on RAG and shipping full-stack features.
+      </p>
+
+      <p style={{ fontFamily: sans, fontSize: 15, fontWeight: 600, color: '#111', margin: '0 0 10px' }}>Research</p>
       <a
         href="/blog/adaptive-guardrails"
         style={{ fontFamily: sans, fontSize: 15, color: '#333', textDecoration: 'underline', textUnderlineOffset: 3 }}
