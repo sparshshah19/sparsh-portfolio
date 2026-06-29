@@ -41,7 +41,7 @@ export default function Page() {
         ))}
       </div>
 
-      <p style={{ fontFamily: sans, fontSize: 15, color: '#333', lineHeight: 1.75, margin: '0 0 48px' }}>
+      <p style={{ fontFamily: EB Garamond, fontSize: 15, color: '#333', lineHeight: 1.75, margin: '0 0 48px' }}>
         Year 2 at the University of Waterloo studying Management Engineering. Currently working as a data engineer at{' '}
         {co('Modern Niagara', 'https://modernniagara.com/')}. Previously at{' '}
         {co('Boardy', 'https://www.boardy.ai/')} as a scout,{' '}
