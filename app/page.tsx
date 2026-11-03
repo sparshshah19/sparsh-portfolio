@@ -42,7 +42,11 @@ export default function Page() {
       </div>
 
       <p style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 15, color: '#333', lineHeight: 1.75, margin: '0 0 16px' }}>
-        Hi, nice to meet you! This is Sparsh, and I appreciate you taking the time to check out my personal website. I am a 2nd year Engineering student at the University of Waterloo with a deep interest in the Data and AI realm. I am currently interning as a Data Analyst at{' '}
+        Hi, nice to meet you! This is Sparsh, and I appreciate you taking the time to check out my personal website.
+      </p>
+
+      <p style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 15, color: '#333', lineHeight: 1.75, margin: '0 0 16px' }}>
+        I am a 2nd year Engineering student at the University of Waterloo with a deep interest in the Data and AI realm. I am currently interning as a Data Analyst at{' '}
         {co('Super.com', 'https://www.super.com/')} (Series D startup at a $1.2B valuation), and am an incoming Data Science Intern at{' '}
         {co('Mackenzie Investments', 'https://www.mackenzieinvestments.com/')} ($270B AUM). In the past, I worked as an Analytics Engineer Intern at{' '}
         {co('Modern Niagara', 'https://modernniagara.com/')} (one of the biggest construction companies in Canada), and as an AI Engineer building internal tooling at{' '}
