@@ -41,12 +41,16 @@ export default function Page() {
         ))}
       </div>
 
-      <p style={{ fontFamily: EB Garamond, fontSize: 15, color: '#333', lineHeight: 1.75, margin: '0 0 48px' }}>
-        Year 2 at the University of Waterloo studying Management Engineering. Currently working as a data engineer at{' '}
-        {co('Modern Niagara', 'https://modernniagara.com/')}. Previously at{' '}
-        {co('Boardy', 'https://www.boardy.ai/')} as a scout,{' '}
-        {co('Cybersphere', 'https://getcybersphere.com/')} working in AI automation, and{' '}
-        {co('Hands', 'https://handsforu.com/')} as a software engineer working on RAG and shipping full-stack features.
+      <p style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 15, color: '#333', lineHeight: 1.75, margin: '0 0 16px' }}>
+        Hi, nice to meet you! This is Sparsh, and I appreciate you taking the time to check out my personal website. I am a 2nd year Engineering student at the University of Waterloo with a deep interest in the Data and AI realm. I am currently interning as a Data Analyst at{' '}
+        {co('Super.com', 'https://www.super.com/')} (Series D startup at a $1.2B valuation), and am an incoming Data Science Intern at{' '}
+        {co('Mackenzie Investments', 'https://www.mackenzieinvestments.com/')} ($270B AUM). In the past, I worked as an Analytics Engineer Intern at{' '}
+        {co('Modern Niagara', 'https://modernniagara.com/')} (one of the biggest construction companies in Canada), and as an AI Engineer building internal tooling at{' '}
+        {co('Cybersphere', 'https://getcybersphere.com/')} (a small startup in SF).
+      </p>
+
+      <p style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 15, color: '#333', lineHeight: 1.75, margin: '0 0 48px' }}>
+        Outside of work, you'll usually find me out on a run or glued to a game. I recently ran the Hamilton Marathon in 4:52, and I love sports, especially hockey, football, basketball, and baseball. The saying I try to live by: be grateful, be curious, have good intentions, and keep working hard.
       </p>
 
       <p style={{ fontFamily: sans, fontSize: 15, fontWeight: 600, color: '#111', margin: '0 0 10px' }}>Research</p>
