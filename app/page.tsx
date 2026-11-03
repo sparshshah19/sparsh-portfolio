@@ -42,7 +42,7 @@ export default function Page() {
       </div>
 
       <p style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 15, color: '#333', lineHeight: 1.75, margin: '0 0 16px' }}>
-        This is Sparsh, and I appreciate you taking the time to check out my personal website.
+        Hi, nice to meet you!
       </p>
 
       <p style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 15, color: '#333', lineHeight: 1.75, margin: '0 0 16px' }}>
