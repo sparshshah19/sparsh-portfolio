@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 export const metadata = { title: 'Qualities I Want to Bring in My Life: Surrender | Sparsh Shah' }
 
 const font = "Georgia, 'Times New Roman', serif"
@@ -40,6 +42,14 @@ export default function SurrenderPost() {
         </p>
 
         <p style={prose}>because it is out of <em>helplessness</em>.</p>
+
+        <Image
+          src="/surrender-robber.png"
+          alt="a man with his hands up as a robber points a gun at him"
+          width={539}
+          height={569}
+          style={{ width: '100%', maxWidth: 320, height: 'auto', display: 'block', margin: '8px auto 32px' }}
+        />
 
         <p style={prose}>
           today, i want to talk about a quality that is absolutely crucial to be successful. the ability to surrender.
