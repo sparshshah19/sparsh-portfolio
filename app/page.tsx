@@ -70,7 +70,7 @@ export default function Page() {
         href="/writing/surrender"
         style={{ fontFamily: sans, fontSize: 15, color: '#333', textDecoration: 'underline', textUnderlineOffset: 3 }}
       >
-        qualities i want to bring in my life: surrender
+        Qualities I Want to Bring in My Life: Surrender
       </a>
     </main>
   )
