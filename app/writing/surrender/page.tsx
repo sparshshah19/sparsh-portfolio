@@ -70,7 +70,7 @@ export default function SurrenderPost() {
         </ul>
 
         <p style={prose}>
-          the most important part of surrendering is giving something up, but out of your own accord, because of your own choice.
+          the most important part of surrendering is giving something up, but <strong>out of your own accord</strong>, because of your own choice.
         </p>
 
         <p style={prose}>the next question that comes up is <strong>why should we surrender?</strong></p>
