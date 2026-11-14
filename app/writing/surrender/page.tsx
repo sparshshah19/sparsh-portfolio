@@ -13,6 +13,12 @@ const prose: React.CSSProperties = {
 const list: React.CSSProperties = {
   ...prose,
   paddingLeft: 24,
+  listStyleType: 'disc',
+}
+
+const orderedList: React.CSSProperties = {
+  ...list,
+  listStyleType: 'decimal',
 }
 
 const li: React.CSSProperties = { marginBottom: 10 }
@@ -106,12 +112,12 @@ export default function SurrenderPost() {
 
         <p style={prose}>and the last question is <strong>how can you surrender?</strong></p>
 
-        <ol style={list}>
-          <li style={li}>the first step is being grateful, recognizing these efforts, because this fuels the why you are surrendering.</li>
-          <li style={li}>the next thing is obedience, or taking actions that include what that thing or person would want you to do. for example, in terms of parents, what would they want you to do at a given time? if you know they like cleaning, then make your bed, and make their bed for them. wash dishes. even small things like such.
+        <ol style={orderedList}>
+          <li style={li}>being grateful, recognizing these efforts, because this fuels the why you are surrendering.</li>
+          <li style={li}>obedience, or taking actions that include what that thing or person would want you to do. for example, in terms of parents, what would they want you to do at a given time? if you know they like cleaning, then make your bed, and make their bed for them. wash dishes. even small things like such.
             <br /><br />
             in the case of a fitness goal, take actions that bring you closer to your ultimate goal. like, imagine what your trainer or a trainer (if you don&rsquo;t have one) would want you to do.</li>
-          <li style={li}>and the last part of it is surrender. i am unclear exactly what this looks like in general, but i think once you combine gratefulness, obedience, and prioritizing another&rsquo;s desires instead of your own, or that hypothetical thing&rsquo;s thoughts on what you do, it automatically brings this quality.</li>
+          <li style={li}>surrender. i am unclear exactly what this looks like in general, but i think once you combine gratefulness, obedience, and prioritizing another&rsquo;s desires instead of your own, or that hypothetical thing&rsquo;s thoughts on what you do, it automatically brings this quality.</li>
         </ol>
 
         <p style={prose}>
