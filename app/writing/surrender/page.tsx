@@ -36,6 +36,12 @@ export default function SurrenderPost() {
         </h1>
 
         <p style={prose}>
+          if a robber puts you at gunpoint and tells you to give them everything you have, and you do, why is that not true surrender?
+        </p>
+
+        <p style={prose}>because it is out of <em>helplessness</em>.</p>
+
+        <p style={prose}>
           today, i want to talk about a quality that is absolutely crucial to be successful. the ability to surrender.
         </p>
 
@@ -55,12 +61,6 @@ export default function SurrenderPost() {
         </ul>
 
         <p style={prose}>
-          but then if a robber puts you at gunpoint and tells you to give them everything you have, and you do, why is that not true surrender?
-        </p>
-
-        <p style={prose}>because it is out of <em>helplessness</em>.</p>
-
-        <p style={prose}>
           the most important part of surrendering is giving something up, but out of your own accord, because of your own choice.
         </p>
 
@@ -77,10 +77,7 @@ export default function SurrenderPost() {
         </ul>
 
         <p style={prose}>
-          for me, i recently had a goal to run a marathon. though now i do think running is healing, initially, it was really hard to run even 5k.</p>
-
-        <p style={prose}>
-          because there comes a point where your mind genuinely wants to stop. it is so easy to stop a run. pause your watch, sit down, and take a break.</p>
+          for me, i recently had a goal to run a marathon. though now i do think running is healing, initially, it was really hard to run even 5k. because there comes a point where your mind genuinely wants to stop. it is so easy to stop a run. pause your watch, sit down, and take a break.</p>
 
         <p style={prose}>
           but having your mind tell you one more step, one more km, one more push is training that makes you able to put off your body&rsquo;s urge to stop.
@@ -100,10 +97,7 @@ export default function SurrenderPost() {
         </p>
 
         <p style={prose}>
-          a very recent example that may be controversial, but jensen huang, ex-ceo of nvidia. he worked at denny&rsquo;s and cleaned a ton of toilets (source: jensen).</p>
-
-        <p style={prose}>
-          he absolutely surrendered so much to start his own company, nvidia, to a trillion dollar+ valuation. but clearly, as we have seen, his affairs &hellip;, and his lack of surrender towards his wife has led him to be kicked out of nvidia, and despite having so much success, his public image has been scrutinized.
+          a very recent example that may be controversial, but jensen huang, ex-ceo of nvidia. he worked at denny&rsquo;s and cleaned a ton of toilets (source: jensen). he absolutely surrendered so much to start his own company, nvidia, to a trillion dollar+ valuation. but clearly, as we have seen, his affairs &hellip;, and his lack of surrender towards his wife has led him to be kicked out of nvidia, and despite having so much success, his public image has been scrutinized.
         </p>
 
         <p style={prose}>
@@ -114,9 +108,7 @@ export default function SurrenderPost() {
 
         <ol style={orderedList}>
           <li style={li}>being grateful, recognizing these efforts, because this fuels the why you are surrendering.</li>
-          <li style={li}>obedience, or taking actions that include what that thing or person would want you to do. for example, in terms of parents, what would they want you to do at a given time? if you know they like cleaning, then make your bed, and make their bed for them. wash dishes. even small things like such.
-            <br /><br />
-            in the case of a fitness goal, take actions that bring you closer to your ultimate goal. like, imagine what your trainer or a trainer (if you don&rsquo;t have one) would want you to do.</li>
+          <li style={li}>obedience, or taking actions that include what that thing or person would want you to do. for example, in terms of parents, what would they want you to do at a given time? if you know they like cleaning, then make your bed, and make their bed for them. wash dishes. even small things like such. in the case of a fitness goal, take actions that bring you closer to your ultimate goal. like, imagine what your trainer or a trainer (if you don&rsquo;t have one) would want you to do.</li>
           <li style={li}>surrender. i am unclear exactly what this looks like in general, but i think once you combine gratefulness, obedience, and prioritizing another&rsquo;s desires instead of your own, or that hypothetical thing&rsquo;s thoughts on what you do, it automatically brings this quality.</li>
         </ol>
 
