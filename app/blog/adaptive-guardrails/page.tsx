@@ -59,7 +59,7 @@ const linkStyle: React.CSSProperties = {
 
 export default function BlogPost() {
   return (
-    <main style={{ background: '#fff', minHeight: '100vh', paddingTop: 72, paddingBottom: 100 }}>
+    <main style={{ minHeight: '100vh', paddingTop: 72, paddingBottom: 100 }}>
         <article style={{ maxWidth: 680, margin: '0 auto', padding: '0 28px' }}>
 
           {/* Back */}
@@ -165,7 +165,7 @@ export default function BlogPost() {
             <img
               src="/benchmark-chart.png"
               alt="Bar chart comparing F1 scores across all four systems"
-              style={{ width: '100%', borderRadius: 6, border: '1px solid rgba(0,0,0,0.1)' }}
+              style={{ width: '100%' }}
             />
           </div>
 

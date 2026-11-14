@@ -27,7 +27,7 @@ const li: React.CSSProperties = { marginBottom: 10 }
 
 export default function SurrenderPost() {
   return (
-    <main style={{ background: '#fff', minHeight: '100vh', paddingTop: 72, paddingBottom: 100 }}>
+    <main style={{ minHeight: '100vh', paddingTop: 72, paddingBottom: 100 }}>
       <article style={{ maxWidth: 680, margin: '0 auto', padding: '0 28px' }}>
         <a href="/" style={{ fontFamily: font, fontSize: 16, color: '#888', textDecoration: 'underline', textUnderlineOffset: 3, display: 'block', marginBottom: 48 }}>
           ← back
