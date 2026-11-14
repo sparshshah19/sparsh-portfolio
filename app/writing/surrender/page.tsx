@@ -112,7 +112,7 @@ export default function SurrenderPost() {
         <ul style={list}>
           <li style={li}>putting yourself in another person&rsquo;s shoes. this skill is always good in that career lens, as we are taught, but it can also help one become more likeable.</li>
           <li style={li}>mental strength, aptitude, and belief in yourself.</li>
-          <li style={li}>you feel good, emotional stability, confidence, and a lack of self.</li>
+          <li style={li}>you feel good, emotional stability, confidence.</li>
         </ul>
 
         <p style={prose}>
