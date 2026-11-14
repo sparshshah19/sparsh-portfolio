@@ -45,13 +45,6 @@ export default function SurrenderPost() {
           today, i want to talk about a quality that is absolutely crucial to be successful. the ability to surrender.
         </p>
 
-        <p style={prose}>before i start, what is my goal behind writing about this quality?</p>
-
-        <ul style={list}>
-          <li style={li}>to motivate others to bring this quality into their lives</li>
-          <li style={li}>to help me think beyond the surface and reflect on how i can bring this quality into my life to be a more successful person</li>
-        </ul>
-
         <p style={prose}>the first question that arises is <strong>what is surrender?</strong></p>
 
         <p style={prose}>my first thoughts on this were:</p>
@@ -97,7 +90,7 @@ export default function SurrenderPost() {
         </p>
 
         <p style={prose}>
-          a very recent example that may be controversial, but jensen huang, ex-ceo of nvidia. he worked at denny&rsquo;s and cleaned a ton of toilets (source: jensen). he absolutely surrendered so much to start his own company, nvidia, to a trillion dollar+ valuation. but clearly, as we have seen, his affairs &hellip;, and his lack of surrender towards his wife has led him to be kicked out of nvidia, and despite having so much success, his public image has been scrutinized.
+          a very recent example that may be controversial, but jensen huang, ex-ceo of nvidia. he worked at denny&rsquo;s and cleaned a ton of toilets (source: jensen). he absolutely surrendered so much to start his own company, nvidia, to a trillion dollar+ valuation. but clearly, as we have seen, his affairs, and his lack of surrender towards his wife has led him to be kicked out of nvidia, and despite having so much success, his public image has been scrutinized.
         </p>
 
         <p style={prose}>
