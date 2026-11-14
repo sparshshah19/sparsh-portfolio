@@ -83,7 +83,7 @@ export default function SurrenderPost() {
           but then how are there so many finishers when your body genuinely cannot take it anymore? because in endurance running, you learn the power of surrender. in order to achieve a goal, you put aside the craving of your muscles.
         </p>
 
-        <p style={prose}>and the last question is <strong>who and how can you surrender?</strong></p>
+        <p style={prose}>next, <strong>who/what to surrender to?</strong></p>
 
         <p style={prose}>
           the most important part is who/what, because there are many people that surrender for money, career goals, and materialistic things. is that wrong? in my opinion, no, unless that is the only thing being surrendered for, and then it is.
