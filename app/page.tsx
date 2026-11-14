@@ -64,6 +64,14 @@ export default function Page() {
       >
         Adaptive Guardrails: Code-form attacks on retrieval-based AI safety memory
       </a>
+
+      <p style={{ fontFamily: sans, fontSize: 15, fontWeight: 600, color: '#111', margin: '32px 0 10px' }}>Writing</p>
+      <a
+        href="/writing/surrender"
+        style={{ fontFamily: sans, fontSize: 15, color: '#333', textDecoration: 'underline', textUnderlineOffset: 3 }}
+      >
+        qualities i want to bring in my life: surrender
+      </a>
     </main>
   )
 }
