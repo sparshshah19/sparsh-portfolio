@@ -33,9 +33,15 @@ export default function SurrenderPost() {
           ← back
         </a>
 
-        <h1 style={{ fontFamily: font, fontSize: 30, fontWeight: 400, color: '#111', lineHeight: 1.25, marginBottom: 40 }}>
+        <div style={{ fontFamily: font, fontSize: 13, color: '#888', marginBottom: 12 }}>Writing</div>
+
+        <h1 style={{ fontFamily: font, fontSize: 30, fontWeight: 400, color: '#111', lineHeight: 1.25, marginBottom: 18 }}>
           Qualities I Want to Bring in My Life: Surrender
         </h1>
+
+        <div style={{ fontFamily: font, fontSize: 15, color: '#888', marginBottom: 40 }}>
+          <span>Sparsh Shah · November 2026 · 4 min read</span>
+        </div>
 
         <p style={prose}>
           if a robber puts you at gunpoint and tells you to give them everything you have, and you do, why is that not true surrender?
